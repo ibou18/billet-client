@@ -1,0 +1,49 @@
+{
+  "name": "starter-kit",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^1.0.6",
+    "@reduxjs/toolkit": "^1.8.1",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "i": "^0.3.7",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-markdown": "^8.0.4",
+    "react-redux": "^7.2.8",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^5.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "react-qr-reader": "^2.2.1",
+    "qrcode.react": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
