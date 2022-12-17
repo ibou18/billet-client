@@ -92,6 +92,18 @@ export default function ForgotPassword() {
                 </p>
               </div>
             </form>
+            <div className="flex items-center justify-center">
+                  <div className="flex items-center"></div>
+
+                  <div className="text-sm">
+                    <Link
+                      to="/login"
+                      className="font-medium text-current hover:text-hovers hover:text-orange-500 underline"
+                    >
+                      Se connecter avec mon mot de passe ...
+                    </Link>
+                  </div>
+                </div>
           </div>
         </div>
       )}

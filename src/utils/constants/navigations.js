@@ -1,4 +1,9 @@
 import {
+  PhoneIncomingIcon,
+  QuestionMarkCircleIcon,
+  TicketIcon,
+} from "@heroicons/react/outline";
+import {
   ShoppingCartIcon,
   PaperAirplaneIcon,
   HomeIcon,
@@ -6,7 +11,7 @@ import {
   ClipboardListIcon,
   ColorSwatchIcon,
   QrcodeIcon,
-} from "@heroicons/react/outline";
+} from "@heroicons/react/solid";
 
 export const navigationStatic = [
   { id: 1, name: "Accueil", to: "/" },
@@ -140,6 +145,29 @@ export const AdminNavigation = [
     name: "Generate QrCode",
     href: "/admin/generate",
     icon: QrcodeIcon,
+    current: false,
+  },
+];
+
+// Client Navigation
+export const ClientNavigation = [
+  {
+    name: "Les Évents",
+    href: "/events",
+    icon: TicketIcon,
+    current: true,
+  },
+
+  {
+    name: "Qui sommes-nous ?",
+    href: "/about",
+    icon: QuestionMarkCircleIcon,
+    current: false,
+  },
+  {
+    name: "Contact",
+    href: "/contact",
+    icon: PhoneIncomingIcon,
     current: false,
   },
 ];

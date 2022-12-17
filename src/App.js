@@ -5,7 +5,8 @@ import { useSelector } from "react-redux";
 
 function App() {
   const isAuth = useSelector(isAuthenticated);
-  console.log("ISAuth", isAuth);
+  // console.log("ISAuth", isAuth);
+
   return <div>{isAuth ? <AdminRoutes /> : <ClientRoutes />}</div>;
 }
 

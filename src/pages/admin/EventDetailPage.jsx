@@ -77,33 +77,33 @@ const EventDetailPage = () => {
         <p> ... Loading, </p>
       ) : (
         <>
-          <div className=" grid lg:grid-cols-3 mt-5 lg:ml-52 w-3/5 mx-auto md:grid-rows-3 gap-2 ">
+          <div className=" grid lg:grid-cols-3 mt-5 lg:mx-auto mx-auto md:grid-rows-3 gap-2 px-24 ">
             <Link
-              className="flex items-center justify-start w-52 px-5 py-2 bg-blue-500 shadow-lg shadow-blue-400/50 text-white rounded-lg "
+              className="flex items-center justify-start px-5 py-2 bg-blue-500 shadow-lg shadow-blue-400/50 text-white rounded-lg "
               to={"/admin/events"}
               onClick={() => {
                 setOpenDelete(true);
               }}
             >
-              <FontAwesomeIcon icon={faEye} className="h-4 p-1 mr-5" />
+              <FontAwesomeIcon icon={faEye} className="h-4 p-1 mr-2" />
               <span className=""> Listes Events</span>
             </Link>
             <button
-              className="flex items-center justify-start w-52 px-5 py-2 bg-orange-500 shadow-lg shadow-orange-400/50 text-white rounded-lg"
+              className="flex items-center justify-start  px-5 py-2 bg-orange-500 shadow-lg shadow-orange-400/50 text-white rounded-lg"
               onClick={() => {
                 setOpenDelete(true);
               }}
             >
-              <FontAwesomeIcon icon={faFileEdit} className="h-4 p-1 mr-5" />
+              <FontAwesomeIcon icon={faFileEdit} className="h-4 p-1 mr-2" />
               Modifier
             </button>
             <button
-              className="flex items-center justify-start w-52 px-5 py-2 bg-red-500 shadow-lg shadow-red-400/50 text-white rounded-lg"
+              className="flex items-center justify-start  px-5 py-2 bg-red-500 shadow-lg shadow-red-400/50 text-white rounded-lg"
               onClick={() => {
                 setOpenDelete(true);
               }}
             >
-              <FontAwesomeIcon icon={faTrashCan} className="h-4 p-1 mr-5" />
+              <FontAwesomeIcon icon={faTrashCan} className="h-4 p-1 mr-2" />
               Supprimer
             </button>
           </div>
