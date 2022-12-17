@@ -198,7 +198,7 @@ export default function HomePage() {
                   src={young}
                   alt="People working on laptops"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-red-400 to-blue-700 mix-blend-multiply" />
+                <div className="absolute inset-0 bg-gradient-to-bl from-orange-400 to-blue-700 mix-blend-multiply" />
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                 <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
@@ -206,7 +206,7 @@ export default function HomePage() {
                   <span className="block text-blue-200">de tes [ Events]</span>
                 </h1>
                 <p className="mx-auto mt-6 max-w-lg text-center text-xl text-blue-200 sm:max-w-3xl">
-                  Contrôle tes
+                  Achetes
                 </p>
                 <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                   <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
